@@ -1,0 +1,69 @@
+{
+  "titulo": "SERVICIOS DEL GIMNASIO",
+  "destinaciones": [
+    {
+      "titulo": "CLASES DE BOXEO INICIACIÓN",
+      "dias_noches": "4 clases, 3 horas",
+      "precio": "Precio: 50€",
+      "imagen": "https://fightland.es/wp-content/uploads/2023/11/fightland-112__1___1_-removebg-2-1-2-1024x683.png",
+      "ruta": "clases-boxeo-iniciacion",
+      "pais": "España"
+    },
+    {
+      "titulo": "ENTRENAMIENTO PERSONALIZADO",
+      "dias_noches": "Sesión individual de 1 hora",
+      "precio": "Precio: 35€",
+      "imagen": "https://puroimpacto.com/wp-content/uploads/2020/05/boxeo-head3.png",
+      "ruta": "entrenamiento-personalizado",
+      "pais": "España"
+    },
+    {
+      "titulo": "CLASES AVANZADAS DE BOXEO",
+      "dias_noches": "6 clases, 5 horas",
+      "precio": "Precio: 75€",
+      "imagen": "https://boxeovalencia.es/assets/images/element/element-16.png",
+      "ruta": "clases-avanzadas-boxeo",
+      "pais": "España"
+    },
+    {
+      "titulo": "SPARRING (ENTRENAMIENTO CON COMBATE)",
+      "dias_noches": "1 hora de sparring",
+      "precio": "Precio: 20€",
+      "imagen": "https://loscaballerosdeoc.com/storage/2024/08/boxeo-valladolid-caballerosdeOC-06-removebg-preview.png",
+      "ruta": "sparring",
+      "pais": "España"
+    },
+    {
+      "titulo": "ENTRENAMIENTO FUNCIONAL PARA BOXEADORES",
+      "dias_noches": "5 días a la semana",
+      "precio": "Precio: 150€ al mes",
+      "imagen": "https://bullfitness.es/wp-content/uploads/2024/11/boxeadores.png",
+      "ruta": "entrenamiento-funcional",
+      "pais": "España"
+    },
+    {
+      "titulo": "CLASES DE BOXEO FEMENINO",
+      "dias_noches": "4 clases, 3 horas",
+      "precio": "Precio: 55€",
+      "imagen": "https://ninefitness.es/wp-content/uploads/2023/06/intermedio-1024x640.png",
+      "ruta": "boxeo-femenino",
+      "pais": "España"
+    },
+    {
+      "titulo": "CLASES DE BOXEO INFANTILES",
+      "dias_noches": "4 clases, 3 horas",
+      "precio": "Precio: 40€",
+      "imagen": "https://ninefitness.es/wp-content/uploads/2023/06/junior2-1024x640.png",
+      "ruta": "boxeo-infantil",
+      "pais": "España"
+    },
+    {
+      "titulo": "BOOTCAMP DE BOXEO",
+      "dias_noches": "6 sesiones, 3 horas",
+      "precio": "Precio: 85€",
+      "imagen": "https://www.sportsinc.mx/wp-content/themes/yootheme/cache/41/resourcegral_20-41b58669.png",
+      "ruta": "bootcamp-boxeo",
+      "pais": "España"
+    }
+  ]
+}

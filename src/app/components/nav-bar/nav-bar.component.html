@@ -1,0 +1,86 @@
+<main class="main">
+  <nav class="navbar navbar-expand-lg sticky-top" style="background-color: #4d4d4d;">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" style="filter: invert(1);"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav w-100 justify-content-evenly text-uppercase fw-semibold">
+          <li class="nav-item">
+            <a class="nav-link text-white" routerLink="/home">Inicio</a>
+          </li>
+          <li class="nav-item dropdown dropdown-hover">
+            <a class="nav-link text-white" routerLink="/reservas" id="navbarDropdown">
+              Reservas
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" routerLink="/Informacion">Información</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" routerLink="/contacto">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" routerLink="/loginRegister">Inicio sesión</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</main>
+
+<style>
+  .navbar {
+    padding: 0.6rem 0;
+  }
+
+  .nav-link {
+    color: #fff !important;
+    font-size: 1.1rem;
+    padding: 0.6rem 1rem;
+    transition: all 0.2s ease;
+    text-align: center;
+  }
+
+  .nav-link:hover {
+    font-weight: bold;
+    color: #ccc !important;
+  }
+
+  .dropdown-hover:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+
+  .dropdown-menu {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    box-shadow: 0px 8px 16px rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+    opacity: 0;
+    visibility: hidden;
+    display: block;
+  }
+
+  .dropdown-hover:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  .dropdown-menu a {
+    color: #fff;
+  }
+
+  .dropdown-menu a:hover {
+    background-color: #fff;
+    color: #000;
+  }
+
+  .dropdown-item {
+    color: #fff;
+    padding: 0.75rem;
+  }
+</style>

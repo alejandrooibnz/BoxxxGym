@@ -1,0 +1,89 @@
+<div class="container mb-5">
+  @for (pais of (groupedDestinations | keyvalue); track pais) {
+    <!-- Línea separadora con título -->
+    <div class="d-flex align-items-center my-5">
+      <hr class="flex-grow-1" style="border-top: 3px solid #fff;" />
+      <h2
+        class="mx-3 fw-bold text-uppercase"
+        [ngStyle]="{ color: pais.key === 'España' ? '#000' : '#fff' }"
+      >
+        {{ pais.key === 'España' ? 'Reservas' : pais.key }}
+      </h2>
+      <hr class="flex-grow-1" style="border-top: 3px solid #fff;" />
+    </div>
+
+    <div class="row justify-content-center g-4">
+      @for (destino of pais.value; track destino) {
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <a [routerLink]="['/', destino.ruta]" class="text-decoration-none">
+            <div class="card h-100 border-0 shadow-sm destino-card">
+              <img
+                src="{{ destino.imagen }}"
+                class="card-img-top"
+                alt="{{ destino.titulo }}"
+              />
+              <div class="card-body text-center">
+                <h3 class="card-title fw-bold fs-4 text-white">
+                  {{ destino.titulo }}
+                </h3>
+                <p class="card-text text-white-50">{{ destino.dias_noches }}</p>
+                <p class="card-text fw-bold text-warning">{{ destino.precio }}</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      }
+    </div>
+  }
+</div>
+
+<div style="height: 80px;"></div>
+<router-outlet />
+
+<style>
+  body {
+    background-color: #111; /* Fondo oscuro general */
+  }
+
+  h2 {
+    letter-spacing: 1px;
+  }
+
+  .destino-card {
+    background-color: #1a1a1a;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 0.5rem;
+  }
+
+  .destino-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  }
+
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+
+  .card-body {
+    padding: 1rem;
+  }
+
+  .card-title {
+    margin-bottom: 0.5rem;
+  }
+
+  .card-text {
+    margin-bottom: 0.25rem;
+  }
+
+  .text-white-50 {
+    color: #bbb !important;
+  }
+
+  a:hover .card-title {
+    color: #ffcc00;
+  }
+</style>

@@ -1,0 +1,38 @@
+/* Header */
+header {
+  display: flex;
+  justify-content: flex-start; /* Cambiado para alinear a la izquierda */
+  align-items: center;
+  padding: 0.625rem 1.25rem;
+  background-color: var(--text-color-light);
+  
+}
+
+.banner-dinamico {
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  animation: deslizarBanner 5s ease-in-out infinite alternate;
+  animation: moverTexto 5s linear infinite;
+  border-radius: 20px;
+}
+
+/* Keyframes for text movement */
+@keyframes moverTexto {
+0% {
+    transform: translateX(0);
+}
+50% {
+    transform: translateX(-20px);
+}
+100% {
+    transform: translateX(0);
+}
+}

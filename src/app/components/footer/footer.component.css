@@ -1,0 +1,36 @@
+/* Redes sociales */
+.footer-social-icons {
+  margin-top: 0.5rem;
+}
+
+.footer-social-icons a {
+  color: #ffd700; /* Cambiado a amarillo */
+  margin: 0 0.5rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.footer-social-icons a img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.footer-social-icons a:hover img {
+  transform: scale(1.2); /* Aumenta el tamaño al pasar el ratón */
+}
+
+/* Texto del footer */
+.footer p,
+.footer a {
+  color: #000000 !important; /* Cambiado a amarillo */
+}
+
+.footer a:hover {
+  text-decoration: underline; /* Subrayado al pasar el ratón */
+}
+
+footer {
+  background-color: #ffd700 /* Cambia el color del fondo */ !important;
+  margin-top: -3rem; /* Ajusta el margen superior si es necesario */
+}

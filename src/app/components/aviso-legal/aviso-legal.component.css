@@ -1,0 +1,41 @@
+.legal-notice {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 50px;
+  }
+  
+  .legal-notice .card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  border-radius: 1rem; /* Mantén los bordes redondeados */
+  }
+  
+  .legal-notice h2, 
+  .legal-notice h3, 
+  .legal-notice h4 {
+    color: #000000;
+    margin-top: 1.5rem;
+  }
+  
+  .legal-notice ul {
+    padding-left: 1.5rem;
+  }
+  
+  .legal-notice a {
+    color: #0077b6;
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .legal-notice {
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+    }
+    
+    .legal-notice .card-body {
+      padding: 1rem;
+    }
+  }
+  
+  .legal-notice h4 {
+    color: #ffd700;
+  }

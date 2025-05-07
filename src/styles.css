@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+    --main-bg-color: #7a3131;
+    --text-color-light: #f8f8f4;
+    --text-color-dark: #7a3131;
+    --hover-bg-color: #eccaca;
+    --text-color: #333;
+    --text-lighter-color: #666;
+    --bg-color: rgb(235, 235, 235);
+    --bg-text-color: white;
+  
+    --base-font-size: 16px;
+  
+    --base-max-content-width: 75rem; /* 1200px */
+  }

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión</title>
+    <link rel="stylesheet" href="./login-register.component.css">
+</head>
+<body>
+  <div class="login-container">
+    <!-- Formulario de Inicio de Sesión -->
+    <div class="form-container sign-in-container">
+        <form id="loginForm">
+            <h1 class="title">Inicia Sesión</h1>
+            <input type="email" id="loginEmail" placeholder="Correo electrónico" required />
+            <input type="password" id="loginPassword" placeholder="Contraseña" required />
+            <a href="#" class="link">¿Olvidaste tu contraseña?</a>
+            <button type="submit" class="btn">Iniciar Sesión</button>
+        </form>
+    </div>
+
+    <!-- Separador -->
+    <div class="divider"></div>
+
+    <!-- Formulario de Registro -->
+    <div class="form-container sign-up-container">
+        <form id="registerForm">
+            <h1 class="title">Crea una Cuenta</h1>
+            <input type="text" id="registerUsername" placeholder="Usuario" required />
+            <input type="email" id="registerEmail" placeholder="Correo electrónico" required />
+            <input type="password" id="registerPassword" placeholder="Contraseña" required />
+            <button type="submit" class="btn">Registrarse</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
